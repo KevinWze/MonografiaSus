@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema</title>
+    <style>
+        h1 {
+            font-size: 40px;
+        }
+
+        form {
+            border: 5px solid white;
+            margin-left: 30%;
+            margin-right: 30%;
+            padding: 5%;
+        }
+
+        input.issue {
+            width: 300px;
+            height: 100px;
+        }
+
+        input.send {
+            width: 100px;
+            height: 30px;
+            background-color: #3b5998;
+            color: white;
+            border-radius: 60px;
+            border: 3px solid;
+            font-family: MS Gothic;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        input.send:hover {
+            background-color: white;
+            color: #3b5998;
+            transition: 0.5s;
+        }
+
+        body {
+            background: linear-gradient(pink, #00008B);
+            color: white;
+            font-family: MS Gothic;
+            font-weight: bold;
+            text-align: center;
+            padding: 6%;
+            backdrop-filter: blur(100px);
+        }
+    </style>
+    <form>
+        <h1>Problema:</h1>
+        <label>Ingresa tu correo:</label> <br>
+        <input type="text">
+        <p>
+            <label>Describe tu problema:</label> <br>
+            <input class="issue" type="text">
+        <p>
+            <label>Adjunta pruebas:</label> <br>
+            <input type="file">
+        <p>
+            <a href="index.html">
+                <input class="send" type="button" value="Enviar"></a>
+    </form>
+</head>
+
+<body>
+
+</body>
+
+</html>
